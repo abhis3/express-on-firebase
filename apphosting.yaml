@@ -1,0 +1,5 @@
+env:
+  - variable: GOOGLE_API_KEY
+    secret: google-api-key
+  - variable: FIREBASE_API_KEY
+    value: "AIzaSyD-Cr-aATGSIqUlE8VczvCvQy2NqDN0RKw"
