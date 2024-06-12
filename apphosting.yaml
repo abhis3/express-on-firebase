@@ -3,3 +3,9 @@ env:
   #   secret: google-api-key
   - variable: FIREBASE_API_KEY
     value: AIzaSyD-Cr-aATGSIqUlE8VczvCvQy2NqDN0RKw
+    availability:
+      - BUILD
+  - variable: FIREBASE_API_KEY
+    value: AIzaSyD-Cr-aATGSIqUlE8VczvCvQy2NqDN0RKw22222
+    availability:
+      - RUNTIME
