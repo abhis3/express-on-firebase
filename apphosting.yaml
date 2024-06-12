@@ -11,5 +11,3 @@ env:
       - RUNTIME
   - variable: NODE_ENV
     value: "production"
-    availability:
-      - RUNTIME
