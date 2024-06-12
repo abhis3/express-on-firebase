@@ -2,10 +2,14 @@ env:
   # - variable: GOOGLE_API_KEY
   #   secret: google-api-key
   - variable: FIREBASE_API_KEY
-    value: AIzaSyD-Cr-aATGSIqUlE8VczvCvQy2NqDN0RKw
+    value: buildApiKey
     availability:
       - BUILD
   - variable: FIREBASE_API_KEY
-    value: AIzaSyD-Cr-aATGSIqUlE8VczvCvQy2NqDN0RKw22222
+    value: runtimeApiKey
+    availability:
+      - RUNTIME
+  - variable: NODE_ENV
+    value: "production"
     availability:
       - RUNTIME
